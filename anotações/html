@@ -1,0 +1,228 @@
+Curso em Vídeo - HTML5 - Aula.1
+
+================================
+Objetivo
+
+O Curso de HTML5 trabalhara com objetivo de criar um site sobre o Google Glass.
+================================
+Historia da Internet
+
+Internet um rede de tamanho mundial -> 
+
+teve inicio na comunição entre os seres humanos -> 
+
+Isso fica esplicito quando vemos a historia da humanidade que nos tempos mais antigos utilizavamos Desenhos em Cavernas para contar historias(Pintura Rupestre)-> 
+
+Com o tempo começaram a surgi idiomas, porém ainda assim existia uma limitação,poís, só podemos dialogar quando estamos no mesmo ambiente que o ouvinte ->
+
+Um dos primeiros meios de se comunicar a distancia foi o sinal de fumaça criado pelos indigenas ->
+
+Porém em 1835, Samuel Morse criou o telégrafo, que junto foi necessario a criação do Código Morse ->
+
+em 1950 grandes descobertas na área da tecnologia da comunição foram criadas e, os principais autores dessas descobertas foram o Claude Shannon, o pai da teoria da informação, Harry Nyquist que ajudou com a criação de teorias de dados e Ralph Hartley que criou a teoria dos osciladores ->
+
+Além do problema da distancia, na época de 1945 os computadores ainda não tinham o tamanho pequeno conhecido como os de hoje. Só para ter uma ideia o Eniac ocupava um prédio ->
+
+em 1959 a tecnologia já tinha evoluido mais um pouco e já era mais facil carregar os computadores mesmo com dificuldade, como é o caso do IBM 1401 ->
+
+Porém só foi em 1969 que surgiu uma verdadeira perola da comunição, a DARPA uma departamento do governo dos EUA que tinha como objetivo conseguir tecnologias para Guerra Fria ->
+
+Os avanços começaram quando através de uma ideia de conectar 4 computadores diferentes foi testada nos estados da California, Los Angeles, Utah. Essa rede ficou conhecido como Arphanet ->
+
+Um dos problemas a serem resolvido durante esse estudo era a comunicação entre maquinas de diferentes e para isso foi criado protocolos universais de comunicação como é o caso do NCP, porém também foram utilizados protocolos já existente. FTP - transmissão de arquivos, DNS - indentificação de maquinas na rede ->
+
+Ray Tomlinson em 1972 através de alguns programas criou um sistema para criação de mensagens eletronicas (email), além disso ele que escolheu o "@" para separar o nome do usuario do servidor ->
+
+Robert Kahn criou TCP que era um protocolo de transferencia que dividia os dados em pacotes, em 1973, quando o NCP começou a dá problemas para conectar diversos computadores, além disso ele que sugiriu o nome internetting para representar redes que comunicavam-se entre si -> 
+
+Porém o TCP não conseguia tratar a identificação das maquinas -> 
+
+Porém Vint Cerf criou o Internet Protocol = IP que ajudou na resolução do problema anterior -> 
+
+A Conexão da rede internet é feita através de cabeamento submarinos e satélites ->
+
+Tim Berners-Lee trabalhando na criação de HiperTextos (Textos, Imagens, Arquivos multimidia), em 1990, ele percebeu que através do protocolo TCP/IP erá possivel cria a transferencia de HiperTextos e, assim no ano de 1990, ele criou o protocolo HTTP, a linguagem HTML e também criou o conceito de Word Ward Web - (www - servidor que agrupa todo o condeuto que utiliza HTTP).
+
+Curso em Vídeo - HTML5 - Aula.2
+
+================================
+
+História da HTML
+
+1990 -> A unica maneira de visualizar o conteudo de WebSites era através de Gopher, que era uma tela petra com letras brancas e o usuario selecionava o conteudo através das setas do teclado. (Não existia multimidia de nessa época)
+
+
+1991 -> Foi criado o primeiro WebSite com os conceitos de Tim Berners-Lee / Nessa época já era utilizado os navegadores, que realizavam a visualização através da rede.
+
+Navegadores:
+
+- Midaswww
+- Celowww
+- Mosaic
+
+1994 -> Ainda na década de 90, temos a criação da Mosaic por estudantes de um universidade, porém após um tempo o Projeto evolui para uma empresa, que ficou conhecida como Netscape.
+
+1995 -> Com o tempo o número de navegadores foram aumentando e, surgiram diversos navegadores como o IBM WebExplorer, UDI WWWW (Primeiro navegador a rodar HTML3) e o Internet Explorer.
+
+1996 -> O Internet Explorer causo grandes problemas para a Netscape, poís, ao criar uma versão do Windows que já vinha instalado com o Internet Explorer, conquistou 90% de presença nos computadores de usuarios. Isso levou a Netscape a processar a Microsoft, o que rendeu um ganho de causa para NetScape, porém mesmo assim não foi suficiente para reconquistar os usuarios.
+
+1999 -> Por isso, em 1999, a Netscape foi vendida para America Online. Com isso os programadores da Netscape fundaram uma nova fundação chamada de Mozilla, que deu origem para o Mozilla Firefox. Que tornou-se um dos maiores navegadores do mercado. Mas a briga não acabou, depois de um tempo surgiu a Google criando o Google Chrome, que dividiu as porcentagens de usuarios.
+
+
+===============================================
+
+1990 - Versão 1 HTML
+
+
+- Pouca funcionalidades
+- HiperTexto
+- Novidade para o mundo
+- Ficou ativa durante 5 anos 
+- Criada por Tim e sua equipe
+
+1995 - Versão 2 HTML
+
+- Passou a ser gerenciada pelo HTML Working Group
+- Mais adeptos
+- Auxilio de empresa de navegadores
+- Problema de criação de diversas tag diferente para cada navegador
+
+1995 - Versão 3 HTML
+
+- Foi criado a W3C para controlar o padrão de criação (Gerenciado por Tim)
+
+1997 - Versão 4 HTML
+
+- Foi a mais utilizada durante anos
+- Mais estável
+- 2004 houve uma ideia de reeconstruir o HTML com a nova tecnologia XML ou XHTML
+- Com medo as empresas de navegadores Mozilla, Opera e Safaria criaram um grupo Chamado WHATWG, que tinha como função criar uma nova versão para continuar o HTML.
+
+2007 -> Versão 5 HTML e XHTML 2.0
+
+- Nessa época foi criado a versão dois do XML 2.0
+- Ao mesmo tempo a WHATWG apresentou uma nova proposta para W3C
+- No fim a W3C gostou da proposta e descontinuou a criação do XML
+- Criando assim a versão 5 e, publicando em 2008, o HTML 5.
+
+2013 -> Versão 5 HTML
+
+- O HTML 5 consilidou-se no mercado
+- Uma das principais diferenças dessa versão é a separação dos conceitos de semantica, estilo e funcionalidade
+- Isso significa que a criação de uma página está dividida em três linguagens
+- HTML, CSS e Javascript
+- HTML é semantico, o que significa que tudo nele tem um proposito ou significado
+
+Por isso os curso de criações de sites estão ligados com essas linguagens, poís realmente existe uma conexão entre elas.
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.3
+
+==========================================
+
+Como funciona a Internet ?
+
+Comunicação entre dois computadores pertos podem ser feito através da mesma rede local
+
+Todos os dados que estão transmitidos é representado através dos códigos binarios ou sinais digitais
+
+Caso os computadores estejam distantes é necessario que eles se comuniquem através desse sinal que pode ser transmitido por um telefone, atena parabolica ou atenas de radio, etc... Porém o problema está no tipo de sinal transmitido, que no computador é um sinal digital e que no caso do exemplo é um telefone com o sinal analogico. Esse tipo de problema é preciso ser resolvido através transformação desses sinais digitais para analogicos e podemos fazer isso através de um aparelho que captura do sinal digital e transmite ele de forma analogica (Modulação) - e depois no outro computador através de um telefone é captado o sinal e passado para o aparelho para transforma esse sinal (Demodulação). O nome desse aparelho é MODEM.
+
+Nesse raciocinio leva a pensarmos como os arquivos são passados por essa rede ? Isso e feito através de protocolos que quebra os arquivos em pacotes e depois envia ele em partes (Datagrama)(TCP) até chegar no outro computador, assim outros protocolos reoganizam os pacotes para montar ele novamente. 
+
+Como vimos antes a comunicação entres maquinas podem ser realizadas de diversas formas, só que para isso precisamos identificar quem estamos tentando comunicar. A conexão com a internet é feita através do nosso MODEM com o Provedor de Acesso, que nos conecta na internet e gera um IP para nossa maquina. O IP é formado por 4 parte de um número, exemplo: 177.192.165.124. Tudo que está conectado na internet possui um IP, até mesmo os servidores. Quando acessamos um site como 'www.hostnet.com.br' é realizado uma busca em servidores especias chamados DNS, que são Servidores de Nome de Dominio. Esses servidores buscam através do final do endereço passado no caso 'BR' por um DNS especifico de cada país. Esse DNS-BR possui como se fosse uma lista telefonica que possui diversos IP e seus respectivos nomes e retorna esse IP para a o computador.
+
+Então para abrir um site é necessario realizar todo esse processo que ira buscar um arquivo HTML dentro de um servidor e retorna esse arquivo através de pacotes e vai reeconstruir no seu computador.
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.4
+
+==========================================
+
+Para criar arquivos HTML podemos utilizar diversas ferramentas, elas podem ser mais simples como um editor de texto que já por padrão na sua maquina. Até a criação em softwares de edição de código-fonte como no caso do Notepad++, Sublime, JetStorm ou Visual Studio Code.
+
+Marca -> Tag -> Quase todas as tags possuem fechamento
+
+<html> -> incio 
+</html> -> fim
+
+<!DOCTYPE html> -> deixa explicito para navegador que o documento é um HTML5
+
+<html lang="pt-br"> -> parametro que determina a linguagem utilizada no documento sendo ela um mecanismo para buscas quando seu site estiver online.
+
+o documento HTML é dividido em HEAD (Cabeça) e BODY (Corpo).
+
+<head> </head> -> O head possue a função de criar configurações comportamentais do site. 
+
+<body> </body> -> Já o body tem função de receber toda informação que será passada para visualização do usuario.
+
+Para exemplificar o as funções das tags body e head podemos inserir um texto no body e uma meta-tag no head.
+
+Meta-tags -> São tags comportamentais (Tags de configuração), elas determinam uma caracteristica do site ou realiza uma função não visivel nele.
+
+BASICO DO HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='UTF-8"/>
+    <title>Olá, Mundo!</title>
+</head>
+<body>
+    Olá, Mundo!
+</body>
+</html>
+
+<meta charset='UTF-8'/> - determina a tabela de caracteres do site, ela não precisa fechar, mas tem a opção de deixar sem barra no final(html antigo) ou com barra (padrão xml)
+
+<title>'texto'</title> - determina um titulo para sua pagina (configuração)
+
+<!DOCTYPE>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Olá, Mundo!</title>
+    <style>
+        h1 {
+            font-family: Arial;
+            font-size: 30pt;
+            color: blue;
+        }
+    </style>
+</head>
+    
+<body>
+    <h1>Olá, Mundo!</h1>
+    <h2>Estou livre</h2>
+</body>
+</html>
+
+
+<h1> ou maior - determina uma hierarquia de titulos, quanto maior do H será menor na hierarquia
+
+<style></style> - É uma tag para determina fonte de estilo (CSS) só que para de forma integrada com script html
+
+A maneira de utilizar a edição de tags e classes em css, é da seguinte forma:
+
+<style>
+    'tag' { -> inicia a formatação da tag desejada (Isso aplicara em todo conteudo que esteja utilizando essa tag)
+        font-family: Arial; -> qual fonte será usada
+        font-size: 30pt; -> tamanho da letra
+        color: blue; -> cor do texto
+        text-shadow: 2px 2px 2px black; -> cria uma sombra para o texto (Horizontal, Vertical, Opacidade, Cor)
+    }
+</style>
+
+Todo parametro editado em CSS deve terminar com ';'.
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.5
+
+==========================================
+
+- ATENÇÃO -
+
+Sempre coloque o nome dos arquivos e pastas em minusculo para não dá erro ou conflitos quando realizarmos chamadas de links ou algo
