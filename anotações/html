@@ -226,3 +226,54 @@ Curso em Vídeo - HTML5 - Aula.5
 - ATENÇÃO -
 
 Sempre coloque o nome dos arquivos e pastas em minusculo para não dá erro ou conflitos quando realizarmos chamadas de links ou algo
+
+==============================================================
+Criando uma divisão para o conteudo do site
+
+<div></div> - cria uma área dividida do resto do conteudo
+
+id - parametro para gerar um identificador para alguma tag ou objeto?
+
+...
+    ...
+        <div id="interface">
+            CONTEUDO DO SITE        
+        </div> 
+    ...
+...
+
+===============================================================
+No novo html podemos agrupar titulos através <hgroup>, isso não cria nenhuma diferença em questões visuais, mas sim tem uma função de semântica para o seu arquivo.
+
+        <div id="interface">
+            <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+            </hgroup>        
+        </div>
+
+<hgroup></hgroup> - cria um agrupamento de titulos
+
+================================================================
+<img src='caminho para imagem'/> - inseri uma imagem no seu site
+
+src - especifica o caminho da image (parametro principal do img)
+================================================================
+Vamos delimitar o nosso cabeçalho
+
+Não utilize espaços, números ou acentuação para deixa tudo claro e definido
+
+<div id="interface">
+    <header id="cabecalho">
+    <hgroup>
+    <h1>Google Glass</h1>
+    <h2>A revolução do Google está chegando</h2>
+    </hgroup>
+    
+    <img src="_imagens/glass-oculos-preto-peq.png"/>
+
+    (Conteudo)
+    </header>
+</div>
+        
+<header></header> - assim como o hgroup o header não terá uma relavancia visual, mas sim semêntica, poís, ele ira delimitar o seu conteudo CABEÇALHO do resto.
