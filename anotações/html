@@ -252,7 +252,7 @@ No novo html podemos agrupar titulos através <hgroup>, isso não cria nenhuma d
             </hgroup>        
         </div>
 
-<hgroup></hgroup> - cria um agrupamento de titulos
+<hgroup></hgroup> - cria um agrupamento de titulos, isso pode ser colocado em qualquer parte do código que haja um agrupamento de títulos
 
 ================================================================
 <img src='caminho para imagem'/> - inseri uma imagem no seu site
@@ -277,3 +277,289 @@ Não utilize espaços, números ou acentuação para deixa tudo claro e definido
 </div>
         
 <header></header> - assim como o hgroup o header não terá uma relavancia visual, mas sim semêntica, poís, ele ira delimitar o seu conteudo CABEÇALHO do resto.
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.6
+
+==========================================
+
+O enter no html e os espaços não há relevancia (eles serão ignorados ou será inserido apenas um espaço)
+
+Para resolver esse problema de inserir quebra de linha e paragrafos, utilizamos uma tag específica, que é o <br> e o <p>.
+
+<br/> -> (Não precisa ser fechado) Cria uma quebra de linha para o seu código
+
+<p></p> -> Cria um paragrafo para o texto que tiver inserido no seu meio
+
+&nbsp; -> (no-breaking space) Cria um espaço em branco para sua linha, substituindo a utilização da técla espaço.
+
+<wbr/> -> Essa tag pode ser utilizada para palavras grandes ou com muita pontuação como "-" ou "." quebrarem para outra linha.
+
+
+Ex: 
+
+    "super-<wbr/>humano" -> sempre coloque depois da pontuação
+
+    "www.<wbr/>google.<wbr/>com.<wbr/>br
+
+&shy; -> Cria um quebra na palavra e adiciona um hífen quando o tamanho da palavra é alterado
+
+Esses termos colocados no nosso código que começa "&" e termina com ";" tem diversas funcionalidades, exemplo:
+
+&elt; - "<" menor que
+&egt; - ">" maior que
+&le; - "<=" menor e igual
+&ge; - ">=" maior e igual
+
+&pound; - simbolo de "Libras"
+&yen; - simbolo de "Ienes"
+$euro; - simbolo de "Euro"
+
+&copy; - simbolo de copyright
+&reg; - marca registrada
+&trade; - trademarke
+
+&permil; - simbolo dividido por cem
+&sum; - simbolo de soma
+&infin; - simbolo de infinito
+&times; - simbolo de multiplicação
+&plusmn; - mais ou menos
+&oplus; - mais dentro do círculo
+&radic; - simbolo de raiz
+&ne; - simbolo de não igual
+
+&delta; ou &Delta; - delta minusculo e maiusculo
+&Lambda; - simbolo do lambda
+&omega; - simbolo do omega
+&phi; - simbolo de phi
+
+&larr; ou &Larr - simbolo de seta para esquerda
+&rarr; - simbolo de seta para direita
+&uarr; - simbolo de seta para cima
+&darr; - simbolo de seta para baixo
+&harr; - simbolo de seta para direita e esquerda
+
+&spades; - naipe das cartas
+&clubs; - naipe das cartas
+&hearts; - naipe das cartas
+&diams; - naipe das cartas
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.7
+
+==========================================
+
+Os valores passados dentro dessas tags não apenas possuem uma diferença de aparencia, mas também de valor semântico, poís, os valores lidos dentro dessas tags passaram a receber um valor diferente no contexto do HTML.
+
+<b></b> - Deixa os valores passados entre as tags em negrito
+
+<i></i> - formata os valores passados para italico
+
+<em></em> - deixa com a mesma aparencia do Italio, porém ele recebe uma enfase em relação a estrutura do HTML.
+
+<u></u> - deixa a formatação do texto sublinhado
+
+<s></s> - deixa riscado no meio (DELETADO) // agora a utilização dessa tag tornou-se depreciada e foi trocada pela tag <del></del>
+
+================================================
+
+
+Algumas Tags morreram para o HTML 5, que passou por essa atualização do HTML4 para 5. Isso ocorreu, poís, agora a estrutura do HTML 5 agora é totalmente diferente usando o CSS como fonte de formatação das caracteristicas em HTML. Existe três maneiras de implementar a formatação em CSS, sendo uma delas o <span></span>
+
+Ex:
+
+<span style="text-decoration: underline;"> (overline, linethrough, none)
+<span style="font-wieght: bold;"> (Bold, Bolder, None)
+
+================================================
+
+A função de alinhamento também teve sua alteração sendo agora utilizada no CSS, em vez de utilizar no próprio HTML.
+
+<h1 align='center'> -> Align é um parametro para alinhamento, porém já não mais tão utilizado.
+
+<h1 style="text-align: right;"> (center, right, left, justify)
+
+=================================================
+
+A função de identação dos paragrafos também tornou-se algo editavel através do CSS.
+
+<p style="text-align: justify; text-indent: 50px;">
+
+==================================================
+
+A edição dessas tag podem ser feitas de maneira global, através do <style></style>.
+Após isso basta adicionar a tag desejada e adicionar o valores de edição.
+
+
+<style>
+    p {
+        text-align: justify;
+        text-indent: 50px;
+}
+</style>
+
+===================================================
+
+Exemplos de formatação
+
+<sup></sup> - a formatação fica supescrito
+<sub></sub> - a formatação fica sobescrita
+<pre></pre> - inclui todas as pré formatações feitas no texto, assim incluindo espaços, enter, outros...
+<code></code> - tudo que está escrito entre ele mostrado como um código
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.8
+
+==========================================
+
+Antigamente a modificação da coloração do background era feito pelo parametro:
+
+<body bgcolor="red"> - Determina a cor do fundo
+
+E assim como outras tags e parametros a sua utilização ficou velha e foi trocada pelo CSS.
+
+<body style="background-color: red">
+
+
+A alteração dos valores de cores em HTML, não fica apenas restrita a background, mas também pode ser aplicada no texto através do color. Só que para representar as cores não utilizamos apenas nomes, poís são mais de 16 bilhões de cores que nosso monitor pode reproduzir. A maneiras de representar cores temos hsl, hsla, rgb, rgba ou através do valor hexadecimal.
+
+<style>
+    body {
+        background-color:#d03c32; rgb(0,0,0); rgba(0,0,0,1), hsl(0, 0%, 0%)
+        color: #38353e; hsla(0, 0%, 0%, 1)
+}
+</style>
+
+Essas alterações do background também pode ser feito através de imagens de fundo, que é feito pelo parametro background-image.
+
+<style>
+    body{
+        background-image: url("localdaimagem");
+}
+</style>
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.9
+
+==========================================
+
+Utilize apenas imagens png caso seja necessario uma imagem com qualidade (e/ou) fundo transparente. Imagens em png utilizam muito do seu servidor host.
+
+Sempre fique de olho nas imagens e arquivos que você insere, poís isso deixa cada vez mais o seu site pesado. Vamos utilizar o exemplo do professor, ele tem uma imagem com uma resolução muito grande, porém em seu site ele precisa que a imagem reduza de tamanho drasticamente. Para isso ele utilizou o parametro width (lagura), que mesmo alterando o tamanho da imagem em relação ao site; não teve alteração em relação ao seu tamanho verdadeiro que continua sendo muito grande assim sobrecarregando o site.
+
+Resolvemos esses problemas através Softwares de edição e tratamento de imagem como Adobe Photoshop ou Gimp, que podem reduzir a resolução da imagem e salvar ela para um formato Web o que ira gerar um arquivo menos pesado.
+
+===========================================
+
+Nunca coloque caminhos absolutos como C: ou algo do tipo. Procure sempre colocar no mesmo arquivo do index ou em uma subpasta.
+
+===========================================
+
+Como já foi falado o HTML tem função dar valor semântico para o seu conteudo um exemplo disso é o <figure> que determina que a imagem faz parte de um conteudo. Além disso ela possui a possibilidade de adicionar uma legenda a uma imagem, isso ajudara muito no mecanismo de busca para o seu site.
+
+<figure>
+    <img src="fundo-menor.jpg"/>
+    <figcaption>
+       <h3>Google Glass</h3>
+       <p>Uma nova maneira de ver o mundo.</p>
+    </figcaption>
+</figure>
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.10
+
+==========================================
+
+O nosso style já está ocupando muito espaço, isso gera problemas de leitura para seu código, poís, o tamanho do script está muito grande. Para resolver isso vamos criar um arquivo estilo.css para colocar nossas alterações.
+
+==========================================
+
+No inicio do nosso script CSS sempre coloque @charset "UTF-8"; para saber qual a tabela de caracteres o nosso idioma utiliza. Depois precisamos realizar a ligação entre o arquivo html e css e para isso utilizaremos a tag <link>.
+
+<head>
+    <link rel="stylesheet" type="text/css" href=""  />
+
+    rel -> determina o tipo de ligação (Stylesheet - Folha de estilo)
+    type -> tipo do que será aberto    
+    href -> hypertext reference - referencia para chamar um arquivo de fora
+
+
+</head>
+
+===========================================
+
+Para colocar comentarios no CSS basta digitar:
+
+/* TESTE DE COMENTARIO */
+
+===========================================
+
+Para determina que uma tag está herdando valores uma classe basta fazer o seguinte:
+
+Ex:
+
+<figure class="nomedaclasse"> -> A classe é passada como um parametro para tag
+
+Já para utilizar a classe no CSS basta colocar:
+
+'nomedatag'.'nomedaclasse' { -> é dessa forma que referenciamos em CSS
+
+}
+
+============================================
+
+Existe diversas maneiras referenciar dentro de CSS é possivel dentro classe "foto-legenda" editar apenas a tag img dentro dela:
+
+figure.foto-legenda img { -> acesse dentro da tag figure com classe "foto-legenda" a tag img
+    width: 100%;
+    height: 100%;
+}
+
+============================================
+
+
+Uma das possibilidades do CSS é definir as posições das tags na página para isso utilizamos o position.
+
+figure.foto-legenda figcaption {
+    position: absolute; -> Sua posição será absoluta em relação ao local que ele está (Elemento pai)
+
+}
+
+Porém essa linha dara um erro, poís a posição do tag pai dele não foi definida, logo ele considera o top como a página inteira.
+
+figure.foto-legenda {
+    position: relative; -> define uma posição relativa a onde ele foi inserido no HTML.
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0; -> opacidade do elemento
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box; -> determina que o tamanho deve ficar restrito até a borda do elemento anterior
+}
+
+=============================================
+
+O figcaption editado anteriormente teve sua opacidade reduzida para 0, logo não podemos ver ele. Mas para mudarmos isso utilizamos um evento chamado hover (Quando o mouse estiver emcima) para mostrar ele novamente.
+
+Ex:
+
+figure.foto-legenda: hover figcaption {
+    opacity: 1;
+    transition: opacity 1s; -> determina que a transição do parametro opacidade será 1 segundo.
+}
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.11
+
+==========================================
