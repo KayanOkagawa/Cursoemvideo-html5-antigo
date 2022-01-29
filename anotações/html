@@ -563,3 +563,66 @@ figure.foto-legenda: hover figcaption {
 Curso em Vídeo - HTML5 - Aula.11
 
 ==========================================
+
+Sempre mantenha a quantidade de tags '<h*>' em uma quantidade moderada, poís elas possuem a regra de hierarquia assim podendo ocorrer problemas semânticos.
+
+
+Sempre que criamos uma conteiner ou divisão estamos deixando claro que aquela parte do nosso arquivo HTML representa uma área diferente das outras. Existe diversos tipos de conteiners, porém nessa aula iremos utilizar a NAV que é uma tag para criar uma divisão de links para nevegação.
+
+Ex:
+
+<nav>
+    - menu
+    - sobre
+    - contato
+</nav>
+
+==========================================
+
+No HTML temos  três tipos de lista as OL, UL e DL que representam listas ordernadas (COM ALGUMA REGRA PARA ORGANIZAR ELAS), não ordernadas (SEM REGRA DE ORGANIZAÇÃO) e lista de definição (UMA LISTA QUE APENAS ESPECÍFICA DETERMINADO ITEM).
+
+Toda ul ou ol necessitama da tag '<li>' para criar um item da lista.
+
+
+Ex:
+
+<ol>
+    <li>menu</li>
+    <li>sobre</li>
+    <li>contato</li>
+</ol>
+
+
+<ul>
+    <li>menu</li>
+    <li>sobre</li>
+    <li>contato</li>
+</ul>
+
+O valores de representação das <li> pode ser definidos através do parametro TYPE dentro da tag <ol> ou <ul>.
+
+Ex:
+
+<ol type='A'> -> lista organizada por alphabeto
+<ol type='1'> -> lista organizada por númeração
+<ol type='i'> -> lista organizada por númeração romana
+
+<ul type='square'> -> lista com quadrados
+<ul type='circle'> -> lista com circulos
+<ul type='disk'> -> lista com discos
+
+E além disso podemos definir um valor para inicialização da no organização das OL através do parametro START.
+
+<ol type='A' start='3'> - O parametro start só recebe valores númericos
+
+Além disso podemos colocar listas dentro de listas e assim criar listas encadeadas de maneiras hierarquica.
+
+<ul>
+    <li>menu</li>
+    <li>sobre</li>
+    <li>contato</li>
+    <ol>
+        <li>teste</li>
+    </ol>
+</ul>
+
