@@ -736,4 +736,105 @@ nav#menu h1 {
     display: none;
 }
 
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.14
+
+==========================================
+
+Nessa aula iremos continuar formatando o nosso menu de links que ainda não está totalmente bem feito. Para melhorar nosso menu vamos incluir uma alteração no evento "hover" (Quando o mouse estiver por cima do conteudo).
+
+Ex:
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+Essa linha do nosso código CSS ira alterar a cor do fundo ao passar o mouse emcima. Podemos além disso configurar o tempo das transições desse código através do parametro "transition".
+
+nav#menu li {
+    transition: 1s; -> dessa forma estaremos mudando o tempo de todas as transições
+    transition: background-color 1s; -> dessa forma especificamos o valor que queremos configurar.
+}
+
+Sempre tenha o maior número de navegadores para que você possa realizar teste e verificar se o seu site está agindo de maneira correta.
+
+Uma estrategia boa para podermos manter o seu site rodando com retrocompatibilidade é utilizar do site passado pelo professor: prefixr.com.
+
+O prefixr é um cross-browser o que significa que ele gera códigos para diversos navegadores assim permitindo que você garanta que as funcionalidades continuem independete do navegador.
+
+
+=============================================
+
+Agora precisamos criar uma formatação para os nossos links que ainda possuem uma visualização padrão do HTML.
+
+Ex:
+
+nav#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+Além disso precisamos editar o hover do nosso link:
+
+
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.15
+
+==========================================
+
+Configuração de cabeçalho e interface
+
+
+O conteudo será organizado dentro de uma DIV principal e todo o seu conteudo será position: relative, apenas o menu sendo position: absolute. O motivo disso é porque assim podemos organizar o conteudo de maneira mais prática. Então iremos começar a definir os valores dessa div.
+
+
+Ex:
+
+div#interface {
+    width: 800px; -> difinindo a largura da div para delimitar o conteudo.
+    background-color: #ffffff;
+}
+
+A centralização agora do conteudo no HTML5 é feito por margens sendo organizado por cima, direita, baixo e esquerda.
+
+
+div#interface {
+    width: 800px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px #606060;
+}
+
+Além disso no parametro margin e padding podemos especificar caso todos os valores sejam iguais apenas uma vez.
+
+
+div#interface {
+    width: 800px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #606060;
+}
+
+===========================================
+
+O nosso oculos ainda está fora de posição, porém não podemos utilizar o position: relative, poís, ele precisa sobrepor o conteudo da div. Primeiro definimos um id para ele.
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 780;
+    top: 50px;
+}
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.16
+
+==========================================
 
