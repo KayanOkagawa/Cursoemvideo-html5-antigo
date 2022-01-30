@@ -626,3 +626,114 @@ Além disso podemos colocar listas dentro de listas e assim criar listas encadea
     </ol>
 </ul>
 
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.12
+
+==========================================
+
+Os links possuem diversas funcionalidades podendo ser elas abrir outros sites, downloads ou áreas diferentes da mesma página.
+
+<a href="caminho">esse é o link</a> -> A tag <a> vai indicar que o texto que está no meio dela está recebendo um link para algum lugar ou alguma coisa.
+
+Sempre que o link que for vinculado for um link externo coloque a referencia 'https://' para indicar que não é uma página do mesmo servidor.
+t
+Por padrão o link que criamos ira redirecionar para uma nova página na Web, porém podemos trocar através do parametro targe.
+
+<a href="https://www.google.com/glass/start/" target="_blank"> Project Glass </a> - abre uma nova aba para o link
+
+O valor padrão do target é _self o que significa que ele será aberto na página atual.
+
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.13
+
+==========================================
+
+
+Nessa aula iremos formatar nosso menu NAV que é um conteiner para links de navegação. Primeiro atribuimos um id para nossa tag que passara a ser identificada por esse atributo.
+
+Ex:
+
+<nav id="menu">
+
+Após isso precisamos referenciar ele no nosso CSS:
+
+'nomedatag'#'id' {
+
+}
+
+nav#menu {
+    list-style: none; -> parametro para configurar o estilo da lista None, Square, Circle ou Disk.
+    text-transforme: uppercase; -> parametro para passar todo o texto em maisculo
+}
+
+============================================
+
+Um parametro interessante é o display que edita configuração de organização das tags:
+
+
+nav#menu  li {
+    display: inlineblock; -> organiza o conteudo em linhas
+}
+
+display: inlineblock, block;
+
+
+Além disso também temos os parametro Padding e Margin que edita os valores internos de algo e a valores de espaçamentos de fora.
+
+Padding espaço dentro - Margin espaço fora
+
+
+Ex:
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+}
+
+O nosso menu no contexto geral precisa que sua estrutura seja flutuavel ou posicionavel na tela e fazemos isso através do parametro display.
+
+
+Ex: 
+
+nav#menu {
+    display: block;
+}
+
+Agora podemos definir uma posição ajustave para ele podendo assim passar por cima dos documentos.
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+O position é um parametro para determinar a posição de um elemento dentro da sua página. Esse parametro possui regras de relação como é caso de onde ele está inserido (Conteiner).
+
+relative -> relativa dentro do local que ele está.
+
+absoluta -> referente ao site podendo ser movimentado e qualquer direção dentro dele.
+
+O posicionamento dele pode ser configurado através do top e left.
+
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 100;
+}
+
+Podemos definir se um item é visivel ou não com o display:
+
+nav#menu h1 {
+    display: none;
+}
+
+
