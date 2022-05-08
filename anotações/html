@@ -19,7 +19,7 @@ Um dos primeiros meios de se comunicar a distancia foi o sinal de fumaça criado
 
 Porém em 1835, Samuel Morse criou o telégrafo, que junto foi necessario a criação do Código Morse ->
 
-em 1950 grandes descobertas na área da tecnologia da comunição foram criadas e, os principais autores dessas descobertas foram o Claude Shannon, o pai da teoria da informação, Harry Nyquist que ajudou com a criação de teorias de dados e Ralph Hartley que criou a teoria dos osciladores ->
+Em 1950 grandes descobertas na área da tecnologia da comunição foram criadas e, os principais autores dessas descobertas foram o Claude Shannon, o pai da teoria da informação, Harry Nyquist que ajudou com a criação de teorias de dados e Ralph Hartley que criou a teoria dos osciladores ->
 
 Além do problema da distancia, na época de 1945 os computadores ainda não tinham o tamanho pequeno conhecido como os de hoje. Só para ter uma ideia o Eniac ocupava um prédio ->
 
@@ -35,7 +35,7 @@ Ray Tomlinson em 1972 através de alguns programas criou um sistema para criaç�
 
 Robert Kahn criou TCP que era um protocolo de transferencia que dividia os dados em pacotes, em 1973, quando o NCP começou a dá problemas para conectar diversos computadores, além disso ele que sugiriu o nome internetting para representar redes que comunicavam-se entre si -> 
 
-Porém o TCP não conseguia tratar a identificação das maquinas -> 
+O TCP não conseguia tratar a identificação das maquinas -> 
 
 Porém Vint Cerf criou o Internet Protocol = IP que ajudou na resolução do problema anterior -> 
 
@@ -89,7 +89,7 @@ Navegadores:
 
 1995 - Versão 3 HTML
 
-- Foi criado a W3C para controlar o padrão de criação (Gerenciado por Tim)
+- Foi criado a W3C para controlar o padrão de criação do HTML (Gerenciado por Tim)
 
 1997 - Versão 4 HTML
 
@@ -835,6 +835,38 @@ header#cabecalho img#icone {
 ==========================================
 
 Curso em Vídeo - HTML5 - Aula.16
+
+==========================================
+
+Nessa aula iremos continuar a formatação do nosso header (Cabeçalho) para deixar ele mais delimitado e visível.
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid; -> (Dashed, dotted, solid, etc)
+}
+
+Podemos fazer a utilização de imagens sem necessitar da tag img, isso é feito através do parametro background como é feito a seguir:
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url('../_imagens/glass-logo-peq.jpg'); -> Busca o local do arquivo
+}
+
+Além disso podemos adicionar outros parametros que iram mudar a repetição da imagem e a sua posição:
+
+no-repeat: define a repetição da imagem
+
+posição: x, y
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 110px;
+}
+
+==========================================
+
+Curso em Vídeo - HTML5 - Aula.17
 
 ==========================================
 
